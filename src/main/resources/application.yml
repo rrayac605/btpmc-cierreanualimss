@@ -1,0 +1,35 @@
+server:
+  port: ${portCierreAnualImssBatch}
+
+sftp1:
+  host: ${sftpHost}
+  port: ${sftpPort}
+  user: ${sftpUser}
+  pass: ${sftpPass}
+  path: ${sftpPath}
+
+spring:
+  data:
+    mongodb:
+      authentication-database: ${authenticationdatabaseMongo}
+      username: ${usrMongoCifras}
+      password: ${pwMongoCifras}
+      database: ${databaseMongo}
+      port: ${portMongo}
+      host: ${hostMongo}
+  batch:
+    job:
+      enabled: false
+  application:
+    name: btpmc-CierreAnualImss
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+logging:
+  file: ${fileLogBatchCierreAnualImss}
+  level:
+    root: INFO
+    org.springframework.web: INFO
+    com.demo: INFO
+    org.hibernate: INFO
+    mx.gob.imss.cit: debug
+

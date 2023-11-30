@@ -1,0 +1,49 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+**/bin
+**/mvnw
+**/mvnw.cmd
+
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
+
+**/.DS_Store
+pmc_usr/archivoscierreanuaRFCIMSS/2021/JUN/OOAD_26_5.txt
+pmc_usr/archivoscierreanuaRFCIMSS/2021/JUN/OOAD_27_1.txt
+pmc_usr/archivoscierreanuaRFCIMSS/2021/JUN/OOAD_29_19.txt
+pmc_usr/archivoscierreanuaRFCIMSS/2021/JUN/OOAD_2_1_2_3_4.txt
+pmc_usr/archivoscierreanuaRFCIMSS/2021/JUN/OOAD_2_5.txt
+pmc_usr/archivoscierreanualRFCIMSS/2022/enero/OOAD_27_1.txt
+pmc_usr/archivoscierreanualRFCIMSS/2022/enero/OOAD_2_1_2_3_4.txt
+pmc_usr/archivoscierreanualRFCIMSS/2022/JUN/OOAD_26_5.txt
+pmc_usr/archivoscierreanualRFCIMSS/2022/JUN/OOAD_27_1.txt
+pmc_usr/archivoscierreanualRFCIMSS/2022/JUN/OOAD_29_19.txt
+pmc_usr/archivoscierreanualRFCIMSS/2022/JUN/OOAD_2_1_2_3_4.txt
+pmc_usr/archivoscierreanualRFCIMSS/2022/JUN/OOAD_2_5.txt
